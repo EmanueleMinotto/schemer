@@ -2,7 +2,7 @@ schemer
 =======
 
 [![Build Status](https://img.shields.io/travis/EmanueleMinotto/schemer.svg?style=flat)](https://travis-ci.org/EmanueleMinotto/schemer)
-[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/xxx.svg?style=flat)](https://insight.sensiolabs.com/projects/xxx)
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/8e5d5efc-7175-4bf0-b164-74f3fc4bd3bf.svg?style=flat)](https://insight.sensiolabs.com/projects/8e5d5efc-7175-4bf0-b164-74f3fc4bd3bf)
 [![Coverage Status](https://img.shields.io/coveralls/EmanueleMinotto/schemer.svg?style=flat)](https://coveralls.io/r/EmanueleMinotto/schemer)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/EmanueleMinotto/schemer.svg?style=flat)](https://scrutinizer-ci.com/g/EmanueleMinotto/schemer/)
 [![Total Downloads](https://img.shields.io/packagist/dt/emanueleminotto/schemer.svg?style=flat)](https://packagist.org/packages/emanueleminotto/schemer)
