@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use EmanueleMinotto\Schemer\Command;
+use Symfony\Component\Console\Application;
+
+$application = new Application('schemer', '@git-version@');
+
+$application->add(new Command\Format\BowerCommand());
+$application->add(new Command\Format\BoxCommand());
+$application->add(new Command\Format\ComponentCommand());
+$application->add(new Command\Format\ComposerCommand());
+$application->add(new Command\Format\ContributeCommand());
+$application->add(new Command\Format\JsHintCommand());
+$application->add(new Command\FormatCommand());
+$application->add(new Command\SelfUpdateCommand());
+$application->add(new Command\ValidateCommand());
+$application->add(new Command\Validation\BowerCommand());
+$application->add(new Command\Validation\BoxCommand());
+$application->add(new Command\Validation\ComponentCommand());
+$application->add(new Command\Validation\ComposerCommand());
+$application->add(new Command\Validation\ContributeCommand());
+$application->add(new Command\Validation\JsHintCommand());
+
+$application->run();
