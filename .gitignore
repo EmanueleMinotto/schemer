@@ -1,6 +1,5 @@
 *.phar
 build
 composer.lock
-composer.phar
 phpunit.xml
 vendor
