@@ -180,7 +180,7 @@ class FormatCommand extends Command
     private function reduceOptions(InputInterface $input)
     {
         $value = JSON_PRETTY_PRINT;
-        $options = $input->getOptions();
+        $options = array_filter($input->getOptions());
 
         $jsonOptionsKeys = array_filter(array_keys($options), function ($key) {
             return 'json-' === substr($key, 0, 5);
