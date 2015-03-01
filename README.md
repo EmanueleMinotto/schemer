@@ -20,8 +20,6 @@ Supported shortcuts (validation and formatting):
  * [Mozilla's contribute.json](https://contribute.paas.allizom.org/)
  * *More coming soon...*
 
-API: [emanueleminotto.github.io/schemer](http://emanueleminotto.github.io/schemer/)
-
 Install
 -------
 
