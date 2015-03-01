@@ -41,6 +41,7 @@ abstract class AbstractFormatCommand extends Command
         $arguments['schema'] = $this->getSchemaUrl();
 
         $arguments['--backup'] = $input->getOption('backup');
+        $arguments['--json-unescaped-slashes'] = true;
         $arguments['--json-unescaped-unicode'] = true;
 
         return $command->run(new ArrayInput($arguments), $output);
