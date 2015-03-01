@@ -6,6 +6,8 @@ use Symfony\Component\Console\Input\InputArgument;
 
 /**
  * Mozilla's contribute.json formatting.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class ContributeCommand extends AbstractFormatCommand
 {

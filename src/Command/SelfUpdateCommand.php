@@ -10,6 +10,8 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Phar updates.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class SelfUpdateCommand extends Command
 {

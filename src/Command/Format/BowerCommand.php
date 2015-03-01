@@ -5,7 +5,9 @@ namespace EmanueleMinotto\Schemer\Command\Format;
 use Symfony\Component\Console\Input\InputArgument;
 
 /**
- * bower.json formatting.
+ * Bower.json formatting.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class BowerCommand extends AbstractFormatCommand
 {

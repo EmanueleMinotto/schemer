@@ -10,6 +10,11 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
+/**
+ * Generic validation command.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
+ */
 class ValidateCommand extends Command
 {
     /**

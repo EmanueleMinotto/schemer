@@ -9,6 +9,8 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Abstract validation command.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 abstract class AbstractValidateCommand extends Command
 {

@@ -5,7 +5,9 @@ namespace EmanueleMinotto\Schemer\Command\Validation;
 use Symfony\Component\Console\Input\InputArgument;
 
 /**
- * composer.json validation.
+ * Composer.json validation.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class ComposerCommand extends AbstractValidateCommand
 {

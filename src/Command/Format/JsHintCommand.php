@@ -6,6 +6,8 @@ use Symfony\Component\Console\Input\InputArgument;
 
 /**
  * JSHint .jshintrc formatting.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class JsHintCommand extends AbstractFormatCommand
 {

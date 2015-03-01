@@ -10,6 +10,11 @@ use Symfony\Component\Console\Helper\TableStyle;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
+/**
+ * Schemer utilities.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
+ */
 class Utils
 {
     /**
@@ -50,16 +55,15 @@ class Utils
             throw new Exception('Schema file doesn\'t exist or is not readable.');
         }
 
-        if (filter_var($input->getArgument('schema'), FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED)) {
-            $schema = $input->getArgument('schema');
+        // schema argument must be an URL
+        $schema = $input->getArgument('schema');
 
-            $file = sys_get_temp_dir().'/tmp.json';
+        $file = sys_get_temp_dir().'/tmp.json';
 
-            (new Client())->get($schema, [
-                'save_to' => $file,
-            ]);
+        (new Client())->get($schema, [
+            'save_to' => $file,
+        ]);
 
-            $input->setArgument('schema', $file);
-        }
+        $input->setArgument('schema', $file);
     }
 }

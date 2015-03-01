@@ -5,7 +5,9 @@ namespace EmanueleMinotto\Schemer\Command\Validation;
 use Symfony\Component\Console\Input\InputArgument;
 
 /**
- * bower.json validation
+ * Bower.json validation.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class BowerCommand extends AbstractValidateCommand
 {

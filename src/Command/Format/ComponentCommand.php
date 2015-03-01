@@ -5,7 +5,9 @@ namespace EmanueleMinotto\Schemer\Command\Format;
 use Symfony\Component\Console\Input\InputArgument;
 
 /**
- * component.json formatting.
+ * Component.json formatting.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 class ComponentCommand extends AbstractFormatCommand
 {

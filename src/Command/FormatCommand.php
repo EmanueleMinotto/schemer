@@ -9,6 +9,11 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
+/**
+ * Generic format command.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
+ */
 class FormatCommand extends Command
 {
     /**

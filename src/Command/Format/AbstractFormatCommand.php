@@ -10,6 +10,8 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Abstract formatting command.
+ *
+ * @author Emanuele Minotto <minottoemanuele@gmail.com>
  */
 abstract class AbstractFormatCommand extends Command
 {
