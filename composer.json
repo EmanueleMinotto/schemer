@@ -1,6 +1,6 @@
 {
     "name": "emanueleminotto/schemer",
-    "description": "json-schema.org utilities",
+    "description": "json-schema.org based validation and formatting",
     "keywords": [
         "json",
         "schema",
