@@ -18,8 +18,6 @@ class FormatCommand extends Command
 {
     /**
      * Configures the current command.
-     *
-     * @return void
      */
     protected function configure()
     {
@@ -48,7 +46,9 @@ class FormatCommand extends Command
      * @param InputInterface  $input  An InputInterface instance.
      * @param OutputInterface $output An OutputInterface instance.
      *
-     * @return integer
+     * @throws Exception
+     *
+     * @return int
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
@@ -77,8 +77,6 @@ class FormatCommand extends Command
      *
      * @param InputInterface  $input  An InputInterface instance.
      * @param OutputInterface $output An OutputInterface instance.
-     *
-     * @return void
      */
     private function format(InputInterface $input, OutputInterface $output)
     {
@@ -102,8 +100,6 @@ class FormatCommand extends Command
      * @param array $data   Input data or a subsection.
      *
      * @uses \EmanueleMinotto\Schemer\Command\FormatCommand::sortArray
-     *
-     * @return void
      */
     private function sortObject(array $schema, array &$data)
     {
@@ -152,8 +148,6 @@ class FormatCommand extends Command
      *
      * @param array $schema Schema or schema subsection.
      * @param array $data   Input data or a subsection.
-     *
-     * @return void
      */
     private function sortArray(array $schema, array &$data)
     {
@@ -180,7 +174,7 @@ class FormatCommand extends Command
      *
      * @param InputInterface $input An InputInterface instance.
      *
-     * @return integer
+     * @return int
      */
     private function reduceOptions(InputInterface $input)
     {

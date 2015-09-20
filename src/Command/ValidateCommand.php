@@ -19,8 +19,6 @@ class ValidateCommand extends Command
 {
     /**
      * Configures the current command.
-     *
-     * @return void
      */
     protected function configure()
     {
@@ -36,14 +34,14 @@ class ValidateCommand extends Command
      * @param InputInterface  $input  An InputInterface instance.
      * @param OutputInterface $output An OutputInterface instance.
      *
-     * @return integer
+     * @return int
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         Utils::resolveSchemaUri($input);
 
         $schema = $input->getArgument('schema');
-        $schema = (new UriRetriever())->retrieve('file://' . realpath($schema));
+        $schema = (new UriRetriever())->retrieve('file://'.realpath($schema));
         $data = json_decode(file_get_contents($input->getArgument('file')));
 
         $validator = new Validator();

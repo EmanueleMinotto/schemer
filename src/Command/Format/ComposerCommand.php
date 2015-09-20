@@ -20,8 +20,6 @@ class ComposerCommand extends AbstractFormatCommand
 
     /**
      * Configures the current command.
-     *
-     * @return void
      */
     protected function configure()
     {

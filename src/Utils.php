@@ -22,8 +22,6 @@ class Utils
      *
      * @param Validator       $validator The json-schema validator.
      * @param OutputInterface $output    An OutputInterface instance.
-     *
-     * @return void
      */
     public static function displayErrors(Validator $validator, OutputInterface $output)
     {
@@ -47,7 +45,7 @@ class Utils
      *
      * @param InputInterface $input An InputInterface instance.
      *
-     * @return void
+     * @throws Exception
      */
     public static function resolveSchemaUri(InputInterface $input)
     {

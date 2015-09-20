@@ -22,8 +22,6 @@ class SelfUpdateCommand extends Command
 
     /**
      * Configures the current command.
-     *
-     * @return void
      */
     protected function configure()
     {
@@ -38,7 +36,7 @@ class SelfUpdateCommand extends Command
      * @param InputInterface  $input  An InputInterface instance.
      * @param OutputInterface $output An OutputInterface instance.
      *
-     * @return integer
+     * @return int
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {

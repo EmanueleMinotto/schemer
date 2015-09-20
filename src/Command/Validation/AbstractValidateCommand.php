@@ -20,7 +20,7 @@ abstract class AbstractValidateCommand extends Command
      * @param InputInterface  $input  An InputInterface instance.
      * @param OutputInterface $output An OutputInterface instance.
      *
-     * @return integer
+     * @return int
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
