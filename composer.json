@@ -10,9 +10,7 @@
     "authors": [
         {
             "name": "Emanuele Minotto",
-            "email": "minottoemanuele@gmail.com",
-            "homepage": "http://www.emanueleminotto.it",
-            "role": "Developer"
+            "email": "minottoemanuele@gmail.com"
         }
     ],
     "require": {
